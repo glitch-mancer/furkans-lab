@@ -1,2 +1,7 @@
 node_modules/
-playground/
+# AI & Tools
+.claude/
+CLAUDE.md
+.cursorrules
+.windsurfer
+npm-debug.log

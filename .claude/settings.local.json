@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(move \"D:\\\\project_libero_tb\\\\tb_rt_system_test.vhd\" \"D:\\\\project_libero\\\\KAAN_TKU\\\\stimulus\"\" && move \"D:project_libero_tbtb_rx_stress_test.vhd\" \"D:project_liberoKAAN_TKUstimulus\"\")",
-      "Bash(move \"D:\\\\project_libero_tb\\\\tb_tku_test.vhd\" \"D:\\\\project_libero\\\\KAAN_TKU\\\\stimulus\"\" && move \"D:project_libero_tbtb_tx_stress_test.vhd\" \"D:project_liberoKAAN_TKUstimulus\"\")",
-      "Bash(cmd.exe /c \"rename D:\\\\project_libero fpga-projects\")"
-    ]
-  }
-}
