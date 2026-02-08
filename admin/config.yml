@@ -1,0 +1,24 @@
+﻿backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/blog"
+public_folder: "/assets/blog"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık (TR)", name: "title_tr", widget: "string" }
+      - { label: "Title (EN)", name: "title_en", widget: "string", required: false }
+      - { label: "Slug", name: "slug", widget: "string", hint: "ornek: i2c-protokolu" }
+      - { label: "Tarih", name: "date", widget: "datetime" }
+      - { label: "Özet (TR)", name: "excerpt_tr", widget: "text", required: false }
+      - { label: "Summary (EN)", name: "excerpt_en", widget: "text", required: false }
+      - { label: "Kapak Görseli", name: "cover", widget: "image", required: false }
+      - { label: "Etiketler", name: "tags", widget: "list", required: false }
+      - { label: "İçerik (TR)", name: "body_tr", widget: "markdown" }
+      - { label: "Content (EN)", name: "body_en", widget: "markdown", required: false }

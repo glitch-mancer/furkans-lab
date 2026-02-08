@@ -1,0 +1,225 @@
+﻿<!doctype html>
+<html lang="tr" data-lang="tr" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV | Furkan Ahmet Aktaşın</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </span>
+          <span>Furkan's Lab</span>
+        </a>
+        <nav class="nav-links" aria-label="Ana navigasyon">
+          <a class="nav-link" href="index.html"><span class="tr">Ana Sayfa</span><span class="en">Home</span></a>
+          <a class="nav-link" href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+          <a class="nav-link" href="blog.html"><span class="tr">Blog</span><span class="en">Blog</span></a>
+          <a class="nav-link" href="hakkimizda.html"><span class="tr">Hakkımızda</span><span class="en">About</span></a>
+          <a class="nav-link" href="cv.html" aria-current="page"><span class="tr">CV</span><span class="en">Resume</span></a>
+        </nav>
+        <div class="nav-actions">
+          <button class="lang-toggle" type="button" aria-label="Switch language" aria-pressed="false">
+            <span class="toggle-label toggle-tr">TR</span>
+            <span class="toggle-label toggle-en">EN</span>
+          </button>
+          <a class="btn btn-primary btn-small" href="iletisim.html">
+            <span class="tr">İletişim</span><span class="en">Contact</span>
+          </a>
+          <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Menüyü aç/kapat"
+          >
+            <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+            <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" role="menu" aria-labelledby="menu-toggle">
+        <div class="container">
+          <div class="mobile-links">
+            <a class="mobile-link" href="index.html"><span class="tr">Ana Sayfa</span><span class="en">Home</span></a>
+            <a class="mobile-link" href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+            <a class="mobile-link" href="blog.html"><span class="tr">Blog</span><span class="en">Blog</span></a>
+            <a class="mobile-link" href="hakkimizda.html"><span class="tr">Hakkımızda</span><span class="en">About</span></a>
+            <a class="mobile-link" href="cv.html" aria-current="page"><span class="tr">CV</span><span class="en">Resume</span></a>
+          </div>
+          <div class="mobile-actions">
+            <a class="btn btn-primary" href="iletisim.html"><span class="tr">İletişime Geç</span><span class="en">Get in Touch</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="page-title"><span class="tr">CV</span><span class="en">Resume</span></h1>
+          <p class="page-lead">
+            <span class="tr">Deneyimlerim, eğitimim ve becerilerim tek sayfada.</span>
+            <span class="en">Experience, education, and skills in one place.</span>
+          </p>
+          <div class="section-cta">
+            <a class="btn btn-primary" href="cv.pdf" download>
+              <span class="tr">CV PDF İndir</span><span class="en">Download PDF</span>
+            </a>
+            <p><span class="tr">PDF dosyası hazır olunca buraya eklenecek.</span><span class="en">PDF will be added here soon.</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cv-grid">
+          <article class="card">
+            <h3 class="card-title"><span class="tr">Beceriler</span><span class="en">Skills</span></h3>
+            <div class="card-grid">
+              <div>
+                <h4 class="card-title"><span class="tr">Web</span><span class="en">Web</span></h4>
+                <ul class="stack-list">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>Java Spring Boot</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="card-title"><span class="tr">Gömülü / Donanım</span><span class="en">Embedded / Hardware</span></h4>
+                <ul class="stack-list">
+                  <li>VHDL / Verilog</li>
+                  <li>MIL-STD-1553</li>
+                  <li>FPGA Design (Libero)</li>
+                  <li>UART / SPI / I2C / CAN</li>
+                  <li>Digital Logic Design</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="card-title"><span class="tr">Araçlar</span><span class="en">Tools</span></h4>
+                <ul class="stack-list">
+                  <li>Git (GitHub &amp; GitLab)</li>
+                  <li>VS Code</li>
+                  <li>ModelSim</li>
+                  <li>MATLAB</li>
+                  <li>Linux (Ubuntu/Debian)</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title"><span class="tr">Deneyim</span><span class="en">Experience</span></h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-title">
+                  <span class="tr">AVIES Mühendislik — Sayısal Tasarım Mühendisi (Aday)</span>
+                  <span class="en">AVIES Engineering — Digital Design Engineer (Candidate)</span>
+                </div>
+                <div class="timeline-sub"><span class="tr">Temmuz 2024 – Günümüz</span><span class="en">July 2024 – Present</span></div>
+                <ul class="timeline-list">
+                  <li>
+                    <span class="tr">VHDL ile I2C, UART ve MIL-STD-1553 RT arayüz blokları tasarlandı.</span>
+                    <span class="en">Designed VHDL interface blocks for I2C, UART, and MIL-STD-1553 RT.</span>
+                  </li>
+                  <li>
+                    <span class="tr">FPGA tabanlı sayısal mimariler kurgulandı, modüler RTL bileşenler geliştirildi.</span>
+                    <span class="en">Architected FPGA logic and developed modular RTL components.</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-title">
+                  <span class="tr">BTK — Spektrum İzleme Dairesi (Staj)</span>
+                  <span class="en">ICTA — Spectrum Monitoring Department (Intern)</span>
+                </div>
+                <div class="timeline-sub"><span class="tr">Ekim 2024 – Şubat 2025</span><span class="en">Oct 2024 – Feb 2025</span></div>
+                <ul class="timeline-list">
+                  <li>
+                    <span class="tr">Saha ekipleriyle koordineli ölçüm ve izleme operasyonlarına destek verildi.</span>
+                    <span class="en">Supported measurement and monitoring operations with field teams.</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-title">
+                  <span class="tr">Turkcell — Ağ Teknolojileri (Staj)</span>
+                  <span class="en">Turkcell — Network Technologies (Intern)</span>
+                </div>
+                <div class="timeline-sub"><span class="tr">Ağustos 2023 – Eylül 2023</span><span class="en">Aug 2023 – Sep 2023</span></div>
+                <ul class="timeline-list">
+                  <li>
+                    <span class="tr">Şebeke performansı ve görünürlük için veri toplama ve raporlama.</span>
+                    <span class="en">Data collection and reporting for network performance.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title"><span class="tr">Eğitim</span><span class="en">Education</span></h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-title">
+                  <span class="tr">ODTÜ — Elektrik Elektronik Mühendisliği</span>
+                  <span class="en">METU — Electrical and Electronics Engineering</span>
+                </div>
+                <div class="timeline-sub"><span class="tr">Öğrenci</span><span class="en">Student</span></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </span>
+            <span>Furkan's Lab</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <strong><span class="tr">Hızlı Erişim</span><span class="en">Quick Links</span></strong>
+          <a href="index.html"><span class="tr">Ana Sayfa</span><span class="en">Home</span></a>
+          <a href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+          <a href="blog.html"><span class="tr">Blog</span><span class="en">Blog</span></a>
+          <a href="iletisim.html"><span class="tr">İletişim</span><span class="en">Contact</span></a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Furkan's Lab</span>
+        <span class="tr">Türkiye'den ❤️ ile</span>
+        <span class="en">Built with ❤️ from Türkiye</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

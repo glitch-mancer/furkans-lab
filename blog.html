@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html lang="tr" data-lang="tr" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog | Furkan Ahmet Aktaşın</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </span>
+          <span>Furkan's Lab</span>
+        </a>
+        <nav class="nav-links" aria-label="Ana navigasyon">
+          <a class="nav-link" href="index.html"><span class="tr">Ana Sayfa</span><span class="en">Home</span></a>
+          <a class="nav-link" href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+          <a class="nav-link" href="blog.html" aria-current="page"><span class="tr">Blog</span><span class="en">Blog</span></a>
+          <a class="nav-link" href="hakkimizda.html"><span class="tr">Hakkımızda</span><span class="en">About</span></a>
+          <a class="nav-link" href="cv.html"><span class="tr">CV</span><span class="en">Resume</span></a>
+        </nav>
+        <div class="nav-actions">
+          <button class="lang-toggle" type="button" aria-label="Switch language" aria-pressed="false">
+            <span class="toggle-label toggle-tr">TR</span>
+            <span class="toggle-label toggle-en">EN</span>
+          </button>
+          <a class="btn btn-primary btn-small" href="iletisim.html">
+            <span class="tr">İletişim</span><span class="en">Contact</span>
+          </a>
+          <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Menüyü aç/kapat"
+          >
+            <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+            <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" role="menu" aria-labelledby="menu-toggle">
+        <div class="container">
+          <div class="mobile-links">
+            <a class="mobile-link" href="index.html"><span class="tr">Ana Sayfa</span><span class="en">Home</span></a>
+            <a class="mobile-link" href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+            <a class="mobile-link" href="blog.html" aria-current="page"><span class="tr">Blog</span><span class="en">Blog</span></a>
+            <a class="mobile-link" href="hakkimizda.html"><span class="tr">Hakkımızda</span><span class="en">About</span></a>
+            <a class="mobile-link" href="cv.html"><span class="tr">CV</span><span class="en">Resume</span></a>
+          </div>
+          <div class="mobile-actions">
+            <a class="btn btn-primary" href="iletisim.html"><span class="tr">İletişime Geç</span><span class="en">Get in Touch</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1 class="page-title"><span class="tr">Blog</span><span class="en">Blog</span></h1>
+          <p class="page-lead">
+            <span class="tr">Teknik notlar, öğrenim sürecim ve mühendislik üzerine yazılar.</span>
+            <span class="en">Technical notes, learning journey, and engineering articles.</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container card-grid">\n          <!-- BLOG_POSTS -->\n        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </span>
+            <span>Furkan's Lab</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <strong><span class="tr">Hızlı Erişim</span><span class="en">Quick Links</span></strong>
+          <a href="index.html"><span class="tr">Ana Sayfa</span><span class="en">Home</span></a>
+          <a href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+          <a href="cv.html"><span class="tr">CV</span><span class="en">Resume</span></a>
+          <a href="iletisim.html"><span class="tr">İletişim</span><span class="en">Contact</span></a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Furkan's Lab</span>
+        <span class="tr">Türkiye'den ❤️ ile</span>
+        <span class="en">Built with ❤️ from Türkiye</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+

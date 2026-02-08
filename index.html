@@ -1,0 +1,342 @@
+﻿<!doctype html>
+<html lang="tr" data-lang="tr" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Furkan Ahmet Aktaşın | Ana Sayfa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+          </span>
+          <span>Furkan's Lab</span>
+        </a>
+        <nav class="nav-links" aria-label="Ana navigasyon">
+          <a class="nav-link" href="index.html" aria-current="page">
+            <span class="tr">Ana Sayfa</span><span class="en">Home</span>
+          </a>
+          <a class="nav-link" href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+          <a class="nav-link" href="blog.html"><span class="tr">Blog</span><span class="en">Blog</span></a>
+          <a class="nav-link" href="hakkimizda.html"><span class="tr">Hakkımızda</span><span class="en">About</span></a>
+          <a class="nav-link" href="cv.html"><span class="tr">CV</span><span class="en">Resume</span></a>
+        </nav>
+        <div class="nav-actions">
+          <button class="lang-toggle" type="button" aria-label="Switch language" aria-pressed="false">
+            <span class="toggle-label toggle-tr">TR</span>
+            <span class="toggle-label toggle-en">EN</span>
+          </button>
+          <a class="btn btn-primary btn-small" href="iletisim.html">
+            <span class="tr">İletişim</span><span class="en">Contact</span>
+          </a>
+          <button
+            id="menu-toggle"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Menüyü aç/kapat"
+          >
+            <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+            <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" role="menu" aria-labelledby="menu-toggle">
+        <div class="container">
+          <div class="mobile-links">
+            <a class="mobile-link" href="index.html" aria-current="page"><span class="tr">Ana Sayfa</span><span class="en">Home</span></a>
+            <a class="mobile-link" href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+            <a class="mobile-link" href="blog.html"><span class="tr">Blog</span><span class="en">Blog</span></a>
+            <a class="mobile-link" href="hakkimizda.html"><span class="tr">Hakkımızda</span><span class="en">About</span></a>
+            <a class="mobile-link" href="cv.html"><span class="tr">CV</span><span class="en">Resume</span></a>
+          </div>
+          <div class="mobile-actions">
+            <a class="btn btn-primary" href="iletisim.html"><span class="tr">İletişime Geç</span><span class="en">Get in Touch</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-bg" aria-hidden="true">
+          <span class="hero-glow glow-one"></span>
+          <span class="hero-glow glow-two"></span>
+          <span class="hero-glow glow-three"></span>
+        </div>
+        <div class="container hero-grid">
+          <div>
+            <p class="hero-kicker">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span class="tr">Elektronik • Gömülü • Yazılım</span>
+              <span class="en">Electronics • Embedded • Software</span>
+            </p>
+            <h1 class="hero-title">
+              <span class="tr">Geleceği Kodluyorum</span>
+              <span class="en">Engineering the Future</span>
+            </h1>
+            <p class="hero-lead">
+              <span class="tr">
+                Elektronik ve yazılımı birleştirerek gömülü sistemler, web projeleri ve donanım
+                prototipleri geliştiriyorum. CV ve projelerime göz atın.
+              </span>
+              <span class="en">
+                I combine electronics and software to build embedded systems, web projects, and
+                hardware prototypes. Explore my resume and recent work.
+              </span>
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="projeler.html">
+                <span class="tr">Projelerimi Keşfet</span><span class="en">Explore Projects</span>
+              </a>
+              <a class="btn btn-ghost" href="cv.html">
+                <span class="tr">CV'yi Gör</span><span class="en">View Resume</span>
+              </a>
+            </div>
+            <div class="hero-tags">
+              <span class="chip">VHDL</span>
+              <span class="chip">FPGA</span>
+              <span class="chip">IoT</span>
+              <span class="chip">Web</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">PCB</span>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3><span class="tr">Hızlı Özgeçmiş</span><span class="en">Quick Profile</span></h3>
+            <ul class="hero-list">
+              <li>
+                <span class="dot" aria-hidden="true"></span>
+                <span class="tr">Elektrik-Elektronik Mühendisliği öğrencisi, yazılıma ilgili.</span>
+                <span class="en">Electrical &amp; Electronics Engineering student, focused on software.</span>
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"></span>
+                <span class="tr">2+ yıl VHDL ve FPGA tabanlı tasarım deneyimi.</span>
+                <span class="en">2+ years of VHDL and FPGA-based design experience.</span>
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"></span>
+                <span class="tr">I2C, UART ve MIL-STD-1553 RT arayüzleri geliştirme.</span>
+                <span class="en">Built I2C, UART, and MIL-STD-1553 RT interfaces.</span>
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"></span>
+                <span class="tr">Hedef: projeleri ölçekleyip startup kurmak.</span>
+                <span class="en">Goal: scale projects and launch a startup.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title"><span class="tr">Öne Çıkan Projeler</span><span class="en">Featured Projects</span></h2>
+            <p class="section-subtitle">
+              <span class="tr">Elektronik ve yazılım kesişiminde geliştirdiğim çalışmalardan seçmeler.</span>
+              <span class="en">Selected work across electronics and software.</span>
+            </p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <span class="card-badge"><span class="tr">Proje</span><span class="en">Project</span></span>
+              <h3 class="card-title">
+                <span class="tr">Düşük Gürültülü Güç Kaynağı</span>
+                <span class="en">Low-Noise Power Supply</span>
+              </h3>
+              <p class="card-text">
+                <span class="tr">Hassas analog bileşenler için ultra düşük gürültülü regülatör tasarımı.</span>
+                <span class="en">Ultra-low-noise regulator design for sensitive analog components.</span>
+              </p>
+              <div class="card-meta">
+                <span class="card-tag">LT3045</span>
+                <span class="card-tag">Analog</span>
+                <span class="card-tag">PCB</span>
+              </div>
+              <a class="card-link" href="projeler.html"><span class="tr">Projeyi İncele</span><span class="en">View Project</span></a>
+            </article>
+            <article class="card">
+              <span class="card-badge"><span class="tr">Proje</span><span class="en">Project</span></span>
+              <h3 class="card-title">
+                <span class="tr">STM32G431 Tabanlı LCR Metre</span>
+                <span class="en">STM32G431 LCR Meter</span>
+              </h3>
+              <p class="card-text">
+                <span class="tr">Auto-balancing bridge tekniğiyle geniş frekans aralığında ölçüm.</span>
+                <span class="en">Wide-range measurement using auto-balancing bridge technique.</span>
+              </p>
+              <div class="card-meta">
+                <span class="card-tag">STM32</span>
+                <span class="card-tag">Measurement</span>
+                <span class="card-tag">Firmware</span>
+              </div>
+              <a class="card-link" href="projeler.html"><span class="tr">Projeyi İncele</span><span class="en">View Project</span></a>
+            </article>
+            <article class="card">
+              <span class="card-badge"><span class="tr">Proje</span><span class="en">Project</span></span>
+              <h3 class="card-title">
+                <span class="tr">FPGA Haberleşme Arayüzleri</span>
+                <span class="en">FPGA Communication Interfaces</span>
+              </h3>
+              <p class="card-text">
+                <span class="tr">I2C, UART ve MIL-STD-1553 RT modüllerinin VHDL ile geliştirilmesi.</span>
+                <span class="en">VHDL implementations of I2C, UART, and MIL-STD-1553 RT modules.</span>
+              </p>
+              <div class="card-meta">
+                <span class="card-tag">VHDL</span>
+                <span class="card-tag">FPGA</span>
+                <span class="card-tag">RTL</span>
+              </div>
+              <a class="card-link" href="projeler.html"><span class="tr">Projeyi İncele</span><span class="en">View Project</span></a>
+            </article>
+          </div>
+          <div class="section-cta">
+            <a class="btn btn-ghost" href="projeler.html"><span class="tr">Tüm Projeleri Gör</span><span class="en">All Projects</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title"><span class="tr">Uzmanlık Alanlarım</span><span class="en">Expertise</span></h2>
+            <p class="section-subtitle">
+              <span class="tr">Geliştirme süreçlerinde en sık kullandığım teknolojiler.</span>
+              <span class="en">Core technologies I use across my projects.</span>
+            </p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3 class="card-title"><span class="tr">Gömülü Sistemler</span><span class="en">Embedded Systems</span></h3>
+              <p class="card-text">
+                <span class="tr">VHDL, FPGA, STM32 ve protokol geliştirme.</span>
+                <span class="en">VHDL, FPGA, STM32, and protocol development.</span>
+              </p>
+              <div class="card-meta">
+                <span class="card-tag">VHDL</span>
+                <span class="card-tag">FPGA</span>
+                <span class="card-tag">STM32</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3 class="card-title"><span class="tr">Web Geliştirme</span><span class="en">Web Development</span></h3>
+              <p class="card-text">
+                <span class="tr">Modern web arayüzleri ve etkileşimli deneyimler.</span>
+                <span class="en">Modern web interfaces and interactive experiences.</span>
+              </p>
+              <div class="card-meta">
+                <span class="card-tag">HTML</span>
+                <span class="card-tag">CSS</span>
+                <span class="card-tag">JavaScript</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3 class="card-title"><span class="tr">Donanım Tasarımı</span><span class="en">Hardware Design</span></h3>
+              <p class="card-text">
+                <span class="tr">PCB tasarımı, ölçüm sistemleri ve prototipleme.</span>
+                <span class="en">PCB design, measurement systems, and prototyping.</span>
+              </p>
+              <div class="card-meta">
+                <span class="card-tag">PCB</span>
+                <span class="card-tag">Analog</span>
+                <span class="card-tag">RF</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title"><span class="tr">Son Yazılar</span><span class="en">Latest Articles</span></h2>
+            <p class="section-subtitle">
+              <span class="tr">Mühendislik, tasarım ve öğrenim üzerine notlar.</span>
+              <span class="en">Notes on engineering, design, and learning.</span>
+            </p>
+          </div>
+          <div class="card-grid">
+            <!-- LATEST_POSTS -->
+          </div>
+          <div class="section-cta">
+            <a class="btn btn-ghost" href="blog.html"><span class="tr">Tüm Yazılar</span><span class="en">All Articles</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-section">
+            <div>
+              <h2 class="section-title"><span class="tr">Birlikte Çalışalım</span><span class="en">Let’s Work Together</span></h2>
+              <p>
+                <span class="tr">Projeler, iş birlikleri veya staj fırsatları için benimle iletişime geç.</span>
+                <span class="en">Reach out for projects, collaborations, or internship opportunities.</span>
+              </p>
+            </div>
+            <a class="btn btn-primary" href="iletisim.html">
+              <span class="tr">İletişime Geç</span><span class="en">Get in Touch</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </span>
+            <span>Furkan's Lab</span>
+          </div>
+          <p class="section-subtitle">
+            <span class="tr">Elektronik ve yazılım projeleri için kişisel portföy.</span>
+            <span class="en">Personal portfolio for electronics and software projects.</span>
+          </p>
+        </div>
+        <div class="footer-links">
+          <strong><span class="tr">Hızlı Erişim</span><span class="en">Quick Links</span></strong>
+          <a href="projeler.html"><span class="tr">Projeler</span><span class="en">Projects</span></a>
+          <a href="blog.html"><span class="tr">Blog</span><span class="en">Blog</span></a>
+          <a href="cv.html"><span class="tr">CV</span><span class="en">Resume</span></a>
+          <a href="iletisim.html"><span class="tr">İletişim</span><span class="en">Contact</span></a>
+        </div>
+        <div class="footer-links">
+          <strong><span class="tr">Sosyal</span><span class="en">Social</span></strong>
+          <a href="#"><span class="tr">GitHub (yakında)</span><span class="en">GitHub (soon)</span></a>
+          <a href="#"><span class="tr">LinkedIn (yakında)</span><span class="en">LinkedIn (soon)</span></a>
+          <a href="#"><span class="tr">E-posta (yakında)</span><span class="en">Email (soon)</span></a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Furkan's Lab</span>
+        <span class="tr">Türkiye'den ❤️ ile</span>
+        <span class="en">Built with ❤️ from Türkiye</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
